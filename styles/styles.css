@@ -44,6 +44,32 @@ h1, h2, h3, p {
     text-shadow: 0 0 5px #fff;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main div{
+    border: 10px solid #fff;
+    /* padding: 0px 0px 0px 0; */
+}
+
+main p {
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* button {
     background-color: transparent;
