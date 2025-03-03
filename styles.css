@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Share+Tech&display=swap');
+
+body {    
+    background-color: black; 
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 5px 10px #888888; */
+}
+
+header #left {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+header #right {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+header #right a {
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 5px;
+}
+
+header #right button {
+    background-color: transparent;
+    color: #00ff00;
+    padding: 5px;
+    border: 2px solid #00ff00;
+    font-family: "Orbitron", sans-serif;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #00ff00;
+    color: black;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    border-radius: 20%;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #f5f5f5;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+h1, h2, h3, p {
+    text-shadow: 0 0  #fff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 26px;
+}
+
+img {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+main div{
+    /* border: 10px solid #fff; */
+    /* padding: 0px 0px 0px 0; */
+}
+
+@keyframes typing {
+    from { width:20px }
+    to { width: 40% }
+}
+
+main p.aspiring {
+    font-size: xx-large;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 2px solid #f5f5f5;
+    width: 0;
+    animation: typing 3s steps(30, end) forwards;
+}
+
+main #about-me {
+    display: flex;
+}
+
+#about-me img {
+    border-radius: 10px;
+}
+
+main #right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 5px solid white; */
+}
+
+main #right .text{
+    overflow: visible;
+    white-space: normal;
+    border-right: none;
+    width: auto; 
+    animation: none;
+    font-size: 17px;
+    /* border: 5px solid white; */
+}
+
+main #right .texts {
+    /* border: 5px solid white; */
+    padding: 20px;
+}
+
+main #left-image {
+    display: flex;
+    width: 40%;
+    /* border: 5px solid white; */
+}
+
+main #right-small {
+    padding: 50px;
+    width: 50%;
+    font-size: large;
+}
+
+main #right-small h3 {
+    padding: 0 22px;
+}
+
+main #right-small p {
+    padding: 20px;
+
+}
+
+main #right-small ul {
+    padding: 30px;
+    /* border: 5px solid white; */
+}
+
+main #right-small ul .fab {
+    color: #00ff00;
+}
+
+.left {
+    
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    /* border: 5px solid white; */
+    padding: 50px;
+    font-size: large;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid white; */
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+a.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #f5f5f5;
+  }
+
+footer {
+    background-color: rgb(45, 44, 44);
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* button {
+    background-color: transparent;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.terminal-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 2px solid #00ff00;
+    width: 0;
+    animation: typing 3s steps(30, end) forwards;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent 90%, rgba(0, 255, 0, 0.1) 100%),
+                linear-gradient(90deg, transparent 90%, rgba(0, 255, 0, 0.1) 100%);
+    background-size: 50px 50px;
+    pointer-events: none;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: gold;
+} */
+
+/* neon green color = #00ff00; */
