@@ -4,6 +4,9 @@ body {
     background-color: black; 
     color: white;
     font-family: "Orbitron", sans-serif;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 header {
@@ -63,7 +66,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding: 26px;
 }
 
 img {
@@ -95,11 +98,15 @@ main #about-me {
     display: flex;
 }
 
+#about-me img {
+    border-radius: 10px;
+}
+
 main #right {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 main #right .text{
@@ -109,13 +116,18 @@ main #right .text{
     width: auto; 
     animation: none;
     font-size: 17px;
+    /* border: 5px solid white; */
+}
 
+main #right .texts {
+    /* border: 5px solid white; */
+    padding: 20px;
 }
 
 main #left-image {
     display: flex;
     width: 40%;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 main #right-small {
